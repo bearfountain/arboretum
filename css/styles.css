@@ -113,13 +113,13 @@ header li {
 
 #content {
   margin-bottom: 150px;
+  padding: 10px;
 }
 
 #content p {
   padding: 10px;
   line-height: 1.3em;
   text-align: justify;
-  margin-top: 15px;
 }
 
 /* @group Home */
@@ -172,4 +172,19 @@ a.button {
   margin: 10px 0;
   font-weight: bold;
   text-shadow: 1px 1px white;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: bold;
+  font-family: 'Vollkorn', sans-serif;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+blockquote {
+  font-size: 14pt;
+  padding: 10px;
+  line-height: 1.3em;
+  margin-bottom: 40px;
 }
