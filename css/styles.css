@@ -88,6 +88,7 @@ nav {
   font-size: .9em;
   text-align: center;
   width: 900px;
+  font: 9pt 'Trebuchet MS', Arial, sans-serif;
 }
 
 #nav1 {
@@ -114,6 +115,13 @@ header li {
   margin-bottom: 150px;
 }
 
+#content p {
+  padding: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  margin-top: 15px;
+}
+
 /* @group Home */
 
 #content.home {
@@ -122,8 +130,11 @@ header li {
 
 img.sign {
   width: 400px;
-  margin: 20px auto;
   display: block;
+  margin: 25px 30px 30px 30px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 1px black;
+  float: right;
 }
 
 /* @end */
@@ -137,6 +148,7 @@ footer {
   margin: auto;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  font-size: 8pt;
 }
 
 #wrapper {
@@ -145,4 +157,19 @@ footer {
   margin: auto;
   border-radius: 10px;
   background-color: #f7f6e1;
+}
+
+a.button {
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px gray;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background-color: #c7c58d;
+  border: 2px solid white;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin: 10px 0;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
 }
