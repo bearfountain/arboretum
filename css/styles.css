@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
 /* @group Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -152,9 +154,9 @@ nav {
 }
 
 #content p {
-  padding: 10px;
+  padding: 10px 40px;
   line-height: 1.3em;
-  text-align: justify;
+  font-family: Vollkorn;
 }
 
 #content_wrapper {
@@ -202,6 +204,7 @@ footer {
   width: 920px;
   box-shadow: 0px 0px 5px gray;
   margin: auto;
+  margin-bottom: 20px;
   border-radius: 10px;
   background-color: #f7f6e1;
 }
@@ -223,16 +226,32 @@ a.button {
 }
 
 h2 {
-  font-size: 16pt;
-  font-weight: bold;
-  font-family: 'Vollkorn', sans-serif;
   padding-left: 10px;
   margin-top: 15px;
+  text-shadow: 0 1px 0 #d7d7d7;
+  font: bold 16pt 'Vollkorn', sans-serif;
+  color: #000000;
+}
+
+/* @group Mission */
+
+#content.mission p {
+  margin: 0 60px;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#content.mission h2 {
+  margin-left: 20px;
 }
 
 blockquote {
-  font-size: 14pt;
   padding: 10px;
-  line-height: 1.3em;
-  margin-bottom: 40px;
+  margin: 0 40px 40px;
+  text-indent: 1em;
+  text-align: left;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  font: 1.1em/1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
+/* @end */
