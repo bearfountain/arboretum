@@ -54,12 +54,14 @@ table {
 /* @group Header */
 
 html {
-  background-color: #f7f6e1;
+  background: #f7f6e1 url(../images/pattern.png);
 }
 
 header {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 920px;
+  padding-top: 20px;
 }
 
 #logo {
@@ -75,7 +77,7 @@ h1 {
   margin-top: 20px;
 }
 
-#banner .photo{
+#banner .photo {
   height: 200px;
   width: 100%;
   background: url(../images/staghorn%20sumac.jpg) 0 -20px;
@@ -85,11 +87,12 @@ nav {
   padding: 10px;
   font-size: .9em;
   text-align: center;
+  width: 900px;
 }
 
 #nav1 {
   background: #a3a286;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 #nav2 {
@@ -128,6 +131,18 @@ img.sign {
 footer {
   background-color: #67442f;
   color: #ffffff;
-  padding: 4px 8px;
+  padding: 4px 10px;
   text-align: right;
+  width: 900px;
+  margin: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#wrapper {
+  width: 920px;
+  box-shadow: 0px 0px 5px gray;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #f7f6e1;
 }
