@@ -88,7 +88,6 @@ h1 {
 }
 
 nav {
-  padding: 4px;
   text-align: center;
   width: 700px;
   font: .8em 'Trebuchet MS', Arial, sans-serif;
@@ -98,9 +97,34 @@ nav {
 #nav1 {
   margin: 20px auto 0 auto;
   color: #ededed;
-  background: -moz-linear-gradient(90deg, #3a7b67 0%, #518b79 92.6%) #3a7b67;
-  background: -webkit-gradient(linear, left bottom, left top, from(#3a7b67), color-stop(0.926, #518b79)) #3a7b67;
+  background: -moz-linear-gradient(90deg, #316857 0%, #518b79 92.6%) #3a7b67;
+  background: -webkit-gradient(linear, left bottom, left top, from(#316857), color-stop(0.926, #518b79)) #3a7b67;
   text-transform: uppercase;
+  border: 1px solid rgba(36, 78, 65, 0.56);
+  border-bottom-color: #0f221c;
+  border-top-color: #375a4f;
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.34);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.34);
+}
+
+#nav1 li.current {
+  color: #ffffff;
+  background-color: #24433a;
+  border-top-style: none;
+  border-bottom-style: none;
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
+}
+
+#nav1 li {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 20px;
+  text-shadow: 0 1px 0 #000000;
+}
+
+#nav1 li:not(.current):hover {
+  background-color: rgba(255, 255, 255, 0.17);
 }
 
 .sheen {
@@ -108,26 +132,12 @@ nav {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.09)), color-stop(0.451, rgba(254, 254, 254, 0.11)), color-stop(0.471, rgba(254, 254, 254, 0.31)), to(rgba(255, 255, 255, 0)));
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.47);
 }
 
 .sheen:hover {
   background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(254, 254, 254, 0.2) 45.1%, rgba(254, 254, 254, 0.4) 47.1%, rgba(255, 255, 255, 0) 100%);
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.3)), color-stop(0.451, rgba(254, 254, 254, 0.3)), color-stop(0.471, rgba(254, 254, 254, 0.5)), to(rgba(255, 255, 255, .2)));
   
-}
-
-#nav1 li.current {
-  color: #494949;
-  background-color: #b5b152;
-}
-
-#nav1 li {
-  display: inline-block;
-  margin: 0;
-  padding: 8px 20px;
-  -webkit-border-radius: 3px; 
-  border-radius: 3px;
 }
 
 /* @end */
@@ -155,7 +165,7 @@ nav {
 
 img.sign {
   width: 400px;
-  margin: 15px;
+  margin: 25px;
   border: 1px solid white;
   box-shadow: 0px 0px 1px black;
 }
@@ -165,7 +175,7 @@ img.sign {
 }
 
 .left p {
-  margin: 80px auto 0;
+  margin: 50px auto 0;
   width: 400px;
 }
 
