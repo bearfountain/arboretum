@@ -160,7 +160,7 @@ nav {
 #content p {
   padding: 10px 40px;
   line-height: 1.3em;
-  font-family: Vollkorn;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 #content_wrapper {
@@ -181,7 +181,7 @@ img.sign {
 }
 
 .left p {
-  margin: 50px auto 0;
+  margin: 80px auto 0;
   width: 400px;
 }
 
@@ -256,6 +256,16 @@ blockquote {
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   font: 1.1em/1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* @end */
+
+/* @group Giving */
+
+.address {
+  white-space: pre;
+  margin-left: 20px;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 /* @end */
