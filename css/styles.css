@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
 
 /* @group Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -153,7 +154,45 @@ nav {
 }
 
 #image-header {
-  background: url(../images/sumac.jpg);
+  height: 124px;
+  color: white;
+  padding-top: 45px;
+  font-family: Vollkorn;
+  font-style: italic;
+  text-shadow: 1px 1px 0px black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 0px 1px black;
+  position: relative;
+  z-index: 1;
+}
+
+#image-header h1, #image-header div.top, #image-header div.bottom {
+  position: absolute;
+  z-index: 2;
+}
+
+#image-header h1 {
+  font-style: normal;
+  font-size: 30pt;
+  top: 45px;
+  left: 54px;
+}
+
+#image-header img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#image-header div.top {
+  top: 30px;
+  left: 59px;
+}
+
+#image-header div.bottom {
+  top: 95px;
+  left: 59px;
 }
 
 #content {
@@ -164,7 +203,8 @@ nav {
 #content p {
   padding: 10px 40px;
   line-height: 1.3em;
-  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  font-family: Cabin;
 }
 
 #content_wrapper {
@@ -175,7 +215,7 @@ nav {
 
 img.sign {
   width: 400px;
-  margin: 25px;
+  margin: 60px 25px 25px 25px;
   border: 1px solid white;
   box-shadow: 0px 0px 1px black;
 }
@@ -185,7 +225,7 @@ img.sign {
 }
 
 .left p {
-  margin: 80px auto 0;
+  margin: 30px auto 0;
   width: 400px;
 }
 
