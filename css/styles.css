@@ -152,6 +152,10 @@ nav {
   text-align: center;
 }
 
+#image-header {
+  background: url(../images/sumac.jpg);
+}
+
 #content {
   margin-bottom: 150px;
   padding: 10px;
